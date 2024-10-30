@@ -1,22 +1,21 @@
+
 {
-    "name": "interactive-cv-website",
-    "version": "1.0.0",
-    "description": "An interactive CV website with a stealth mini-game and quiz functionality.",
-    "main": "index.html",
-    "scripts": {
-        "start": "serve -s ."
-    },
-    "dependencies": {
-        "serve": "^14.0.1"
-    },
-    "keywords": [
-        "CV",
-        "interactive",
-        "JavaScript",
-        "mini-game",
-        "HTML",
-        "CSS"
-    ],
-    "author": "Your Name",
-    "license": "ISC"
+  "name": "interactive-cv-game",
+  "version": "1.0.0",
+  "description": "A stealth game and interactive CV experience.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT"
 }
