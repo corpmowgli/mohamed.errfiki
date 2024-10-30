@@ -1,0 +1,19 @@
+{
+    "name": "interactive-cv-website",
+    "version": "1.0.0",
+    "description": "An interactive CV website with a stealth mini-game and quiz functionality.",
+    "main": "index.html",
+    "scripts": {
+        "start": "echo 'This is a static HTML/CSS/JS project and does not require Node server.'"
+    },
+    "keywords": [
+        "CV",
+        "interactive",
+        "JavaScript",
+        "mini-game",
+        "HTML",
+        "CSS"
+    ],
+    "author": "Your Name",
+    "license": "ISC"
+}
