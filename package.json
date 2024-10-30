@@ -4,7 +4,10 @@
     "description": "An interactive CV website with a stealth mini-game and quiz functionality.",
     "main": "index.html",
     "scripts": {
-        "start": "echo 'This is a static HTML/CSS/JS project and does not require Node server.'"
+        "start": "serve -s ."
+    },
+    "dependencies": {
+        "serve": "^14.0.1"
     },
     "keywords": [
         "CV",
